@@ -43,4 +43,5 @@
 # ls -d dir_*
 # rmdir dir_*
 
-seq 4 | awk '$1%2==0{print "mkdir even_" $1}$1%2{print "mkdir odd_" $1}' | bash
+# bashでコマンド実行
+# seq 4 | awk '$1%2==0{print "mkdir even_" $1}$1%2{print "mkdir odd_" $1}' | bash
